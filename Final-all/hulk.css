@@ -1,0 +1,220 @@
+Body
+{
+background-color: gray;
+background-image:url(images/bp.jpg);
+font-family:Arial;
+color:rgb(0,255,0);
+font-size:18px;
+}
+
+#wrapper
+{
+	width:940px;
+	padding:10px;
+	margin:auto;
+	background-color:black;
+	box-shadow:inset 2px 6px #01121e;
+	/* inset puts a box shadow inside the element */
+	border-radius:10px;
+	/*box-radius changes the curve of the box edge
+	"rounded rectangle" */
+	border:1px solid #517e8f;
+}
+
+#header
+{
+float:left;
+width: 940px;
+height:100px;
+background-image:url(images/head.PNG);
+border-bottom:10px solid rgb(0,255,0);
+}
+
+#name 
+{
+float:left;
+margin-left:20px;
+}
+
+#nav
+{
+float:left;
+width:940px;
+height:40px;
+margin-bottom:10px;
+background-color:black;
+background-image:url(images/navBG.jpg);
+}
+
+.btn-container 
+{
+margin:auto;
+width:850px;
+}
+
+.btn 
+{
+float:left;
+width:130px;
+height:40px;
+text-align:center;
+line-height:40px;
+font-weight:bold;
+color:rgb(0,255,0);
+text-decoration:none;
+text-shadow:2px 2px 4px black;
+}
+
+.btn:hover
+{
+float:left;
+width:130px;
+height:40px;
+text-align:center;
+line-height:40px;
+font-weight:bold;
+color:white;
+text-decoration:none;
+text-shadow:2px 2px 4px black;
+}
+
+
+#left
+{
+float:left;
+width:660px;
+padding:10px;
+margin-bottom:10px;
+}
+
+.title
+{
+float:left;
+width:100%;
+height:100px;
+color: rgb(0,255,0);
+}
+
+#right
+{
+
+float:right;
+width:240px;
+padding:10px;
+padding-top:5px
+margin:auto;
+}
+
+#sidebar
+{
+float:left;
+width:240px;
+height:30px;
+margin-bottom:10px;
+background-color:black;
+background-image:url(images/arrow.png);
+background-position:200px center;
+background-repeat:no-repeat;
+
+}
+
+.feature-title
+{
+float:left;
+float-size:18px;
+margin:5px 0px 0px 10px;
+color: rgb(0,255,0);
+}
+
+.side-thumb
+{
+float:left;
+
+margin-bottom:10px;
+
+}
+
+
+
+
+#footer
+{
+clear:both;
+width:940px;
+height:40px;
+font-size:10px;
+text-align:center;
+color:rgb(0,255,0);
+border-top:2px solid rgb(0,255,0);
+
+}
+
+.box_issue 
+{
+width: 282px;
+float: left;
+padding: 0 20px;
+font-size:12px;
+line-height:16px;
+margin:auto;
+}
+
+.box_issue1 
+{
+width: 600px;
+float: left;
+padding: 0 20px;
+font-size:12px;
+line-height:16px;
+margin:auto;
+}
+
+
+.social 
+{
+
+margin: auto;
+text-align: right;
+padding-top:5px;
+}
+
+#nav1
+{
+float:left;
+width:1200px;
+height:40px;
+margin-bottom:10px;
+
+
+}
+
+#calendar{	
+	position:relative;
+	margin:auto;
+	background-color:black;
+}
+
+#month{
+	font-weight:bold;
+	font-size:20px;
+	font-family:helvetica, san serif;
+}
+
+.days{
+	font-weight:bold;
+	font-family:helvetica, sans serif;
+	font-size:18px;
+	padding:5px;
+	text-align:center;
+}
+
+p(
+	font-family:georgian, serif
+)
+
+#wrapper23{
+	position:relative;
+	width:200px;
+	margin:auto;
+	background-color:#565d7f;
+}
