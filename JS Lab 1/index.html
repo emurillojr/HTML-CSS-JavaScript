@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Week 7 - Javascript HW</title>
+<!-- Ernesto Murillo JSFiddle Assignment Week 7-->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="fiddle.js"/></script>
+</head>
+
+<body>
+
+<h1>Week Seven Homework</h1>
+<details open>
+    <summary>
+       Assignment Details
+    </summary>
+    <p>In this homework assignment you will use javascript to collect information from  the DOM. Then you will either change or display that information in the browser's console. This assignment will give you practice using the document.getElementById();  method of the document object. It will also provide practice in the creation of variables and functions.</p>
+     <p>The first steps will involve gathering the data and storing it in variables. The information you will be collecting and storing in variables is:</p>
+   <ol>
+       <li>The <b>innerHTML</b> of the p with the id="greeting"</li>
+       <li>The <b>style.color</b> of the the figcaption</li> 
+       <li>The <b>value of the text field</b></li>
+       <li>The <b>src</b> of the img with the id="machoman"</li>
+    </ol>
+    <p>In the final step you will be writing a function called <b>logIt()</b> that will be called upon the clicking of the submit button. This function will display the information in the console.</p>
+    
+    
+</details>
+<div>
+<p id="greeting">"Oh Yeah, Diggit?"</p>
+
+<figure>
+<img id="machoman" src="http://www.savageipsum.com/images/machoman.jpg" alt="Macho Man Randy Savage" />
+<figcaption id="caption">Machoman Randy Savage</figcaption>
+</figure>
+    <hr />
+<form>
+    <p>What is your Name?</p>
+    <input id ="text-field" type="text" value="Type Something" />
+    <br />
+    <input id="submit" type="button" value="Submit" />
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+font-family:color:#ff9900; 
+font-family:Arial, Verdana, sans-serif; 
+}
+figure img{
+	width:100px;
+}
+figcaption{
+	color:orange; 
+	font-size:10px;
+}
+details{
+	font-size:12px; 
+	color:#666666;
+	background-color:#ffaa00;
+	padding:10px; 
+	margin-bottom:18px;
+}
+details summary{
+	font-weight:bold; 
+	font-size:14px; 
+	margin-bottom:12px;
+}
+details p{
+	font-style:italic;
+}
+details li{
+	margin-bottom:8px;
+}
+#text-field{
+	width:200px;
+}
+div{
+	width:200px; 
+	padding:10px; 
+	margin:auto; 
+	position:relative; 
+	background-color:#fff; 
+	border:1px solid purple;
+}
+#greeting{
+	text-align:center;
+}
+input{
+	margin-bottom:18px;
+}
