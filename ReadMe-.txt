@@ -184,4 +184,8 @@ Zip the files and upload them.
 
 JS Lab 2
 Create your own Rocks/Paper/Scissor choice game
+---------
+
+Mr. T
+trivia facts
 
