@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* CAUTION: THIS PAGE IS HIGHLY COMMENTED. DON'T LET THEM INTIMIDATE YOU, THEY ARE HERE TO HELP GUIDE YOU THROUGH THIS EXERCISE. AFTER
+EACH CHANGE YOU MAKE, REFRESH YOUR BROWSER TO SEE THE CHANGE. PLACE YOUR NEW CODE BEFORE THE COMMENTED DIRECTIONS THAT TELL YOU WHAT TO DO.
+I'VE PLACED PIXEL BORDERS AROUND ALL ELEMENTS SO YOU CAN SEE THEM IN THE HTML PAGE.*/
+
+
+/* STYLE FOR WRAPPER DIV */
+
+#wrapper {
+	width: 900px;/* Make me 900 pixels wide */
+	margin-right: auto;/* Give me a margin right of auto */
+	margin-left: auto;/* Give me a margin left of auto */
+	/* border:5px solid #ff9999; */
+}
+
+/* NAVIGATION STYLES */
+
+/* Style for Main Navigation Container */
+
+#navContainer {
+	float: right;    /* Float me right */
+	width: 395px;/* Give me a width of 395 pixels */
+	/* border:3px solid #0000ff; */
+}
+
+/* Style for individual navigation elements */
+
+.nav {
+	float: left;    /*Float me left */
+	padding-right: 25px;   /* Give me a padding right of 25 pixels */
+	background-color: #99ff00; /* Give me a background color of #99ff00 */
+	/* border:1px solid #000; */
+}
+
+/* MAIN ARTICLE STYLES */
+
+/* Style for Article Container */
+
+#information {
+	clear: right; /* please clear me right */
+	float: left;   /* float me left */
+	width: 600px;/* make me 600 pixels wide */
+	/* border:3px solid #00ff00; */
+}
+
+/* Style for Mr T Image */
+
+.mr_t {
+	float: left;  /* Hey I'm Mr. T ! Float me left FOOL! */
+	margin-right: 20px;   /* give me a margin right of 20 pixels so the text doesn't touch my right side*/
+    margin-bottom: 10px; /*give me a margin bottom of 10 pixels so the text doesn't get close there either */
+	width: 300px;/* I need a width of 300 pixels */
+	/* border:1px solid #ff0000; */
+}
+
+/* SIDEBAR STYLES */
+
+/* Style for Rocky Picture Cover and Caption positioning */
+
+#rocky {
+	clear: right;  /* clear me right*/
+	float: right; /* float me right*/
+	width:250px;
+	margin-top: 50px;/* Give me a margin top of 50 pixels */
+	/* border:3px solid #990099; */
+}
+
+/* Style for Rocky picture Caption text */
+
+#rocky p {
+	font-family:(Arial);/* Give me a font family of Arial */
+	font-size: 10px;/* Make my font size 10 pixels since I'm a caption */
+	/* border:1px solid #ff0000; */
+}
+/* HEADER AND FOOT STYLINGS */
+
+#header {
+	float: left;/* float me left */
+	/* border:3px solid #ff0000; */
+}
+
+/* Style for Header text */
+
+h1 {
+    font-family:(Arial); /* Give me a font family of Arial */
+	font-size: 50px;/* Make me a font size of 50 pixels */
+	color: #ff0000;/* Make this red color #ff0000 */
+}
+
+/* Style for Foot position and text */
+#footer {
+	clear: both; /* I need to clear both the article and sidebar */
+	font-family:(Arial);/* Give me a font family of Arial */
+	font-size: 10px; /* Make me a font size of 10 pixels */
+	color: #000/* Make me this color #000 */
+	/* border:3px solid #ff0000; */
+}
+
+/* AFTER YOU COMPLETE THE ASSIGNMENT, COMMENT OUT ALL THE "BORDER" STYLES. DON'T DO THIS UNTIL YOU'VE GOTTEN
+ALL YOUR STYLE IN PLACE */
+
+
+
+
