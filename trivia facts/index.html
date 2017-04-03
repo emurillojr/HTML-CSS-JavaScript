@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Week 7 - Javascript Demo</title>
+<!-- Ernesto Murillo SE111 Triva Assignment-->
+<link rel="stylesheet" type="text/css" href="trivia.css"/>
+<!-- Entereing in document javascript-->
+
+<script type="text/javascript">
+	/*javascript data needs to go here, under head before body
+	this will store the answers for the questions with variables*/
+var store1="Jupiter, Saturn, Uranus, and Neptune.";
+var store2="In Ohio it is, if done without a hunting license.";
+var store3="10 million.";
+var store4="The quick brown fox jumps over a lazy dog.";
+var store5="Brandy.";
+var store6="Psycho (1960).";
+var store7="They do not have any clocks.";
+var store8="1st April, 2004 - that's April Fool's Day!";
+var store9="9000 years old!";
+var store10="Infart and Utfart";
+
+
+
+/*keep variables listed together and functions listed together
+to call the functions is similar to fin statements in C++ the 
+innerHTML(needs to be caps) function is activated by the onclick*/
+
+function answer1() {
+	document.getElementById("question1").innerHTML=store1;
+	/*since this is the javascript section of code, use the c++ style 
+	commenting tags
+	The following are stylistic elements that you can add to the javascript*/
+	document.getElementById("question1").style.float="right";
+	document.getElementById("question1").style.color="white";
+}
+function answer2() {
+	document.getElementById("question2").innerHTML=store2;
+	document.getElementById("question2").style.float="right";
+	document.getElementById("question2").style.color="white";
+}
+function answer3() {
+	document.getElementById("question3").innerHTML=store3;
+	document.getElementById("question3").style.float="right";
+	document.getElementById("question3").style.color="white";
+}
+function answer4() {
+	document.getElementById("question4").innerHTML=store4;
+	document.getElementById("question4").style.float="right";
+	document.getElementById("question4").style.color="white";
+}
+function answer5() {
+	document.getElementById("question5").innerHTML=store5;
+	document.getElementById("question5").style.float="right";
+	document.getElementById("question5").style.color="white";
+}
+function answer6() {
+	document.getElementById("question6").innerHTML=store6;
+	document.getElementById("question6").style.float="right";
+	document.getElementById("question6").style.color="white";
+}
+function answer7() {
+	document.getElementById("question7").innerHTML=store7;
+	document.getElementById("question7").style.float="right";
+	document.getElementById("question7").style.color="white";
+}
+function answer8() {
+	document.getElementById("question8").innerHTML=store8;
+	document.getElementById("question8").style.float="right";
+	document.getElementById("question8").style.color="white";
+}
+function answer9() {
+	document.getElementById("question9").innerHTML=store9;
+	document.getElementById("question9").style.float="right";
+	document.getElementById("question9").style.color="white";
+}
+function answer10() {
+	document.getElementById("question10").innerHTML=store10;
+	document.getElementById("question10").style.float="right";
+	document.getElementById("question10").style.color="white";
+}
+
+
+</script>
+
+</head>
+
+<body>
+<!--Open wrapper div-->
+	<div id="wrapper">
+		<h1 id="title">Ernesto Murillo
+		<span class="trivia">Trivia Assignment</span>
+		</h1>
+
+		<!--questions for trivia start here-->
+		<p class="questions">
+			1. Which planets in the Solar System are known as the Gas Giants??
+			<span id="question1">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer1();"/>
+				<!--The called in fucntions for javascript act like funcitons in C++, they
+				need to close with semi-colons and have similar syntax-->
+				</span>
+		</p>
+		<p class="questions">
+			2. Is it illegal to catch mice?
+			<span id="question2">
+			<input type="button" class="btn" value="Get the Answer"
+			onclick="answer2();"/>
+			</span>
+		</p>
+		
+		<p class="questions">
+			3. The Empire State Building is composed of how many bricks?
+			<span id="question3">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer3();"/>
+			</span>
+		</p>
+		
+		<p class="questions">
+			4. Say a sentence that contains every letter of the English Alphabet?
+			<span id="question4">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer4();"/>
+			</span>
+		</p>
+		<p class="questions">
+			5. Back in the 1600's, what was used in thermometers, instead of mercury?
+			<span id="question5">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer5();"/>
+			</span>
+		</p>
+		<p class="questions">
+			6. Which Hollywood movie showed the first toilet flush?
+			<span id="question6">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer6();"/>
+			</span>
+		</p>
+		<p class="questions">
+			7. What is strange about the casinos in Las Vegas?
+			<span id="question7">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer7();"/>
+			</span>
+		</p>
+		<p class="questions">
+			8. Do you know when was Gmail (email service provided by Google) launched?
+			<span id="question8">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer8();"/>
+			</span>
+		</p>
+		<p class="questions">
+			9. How old is the world's oldest piece of chewing gum?
+			<span id="question9">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer9();"/>
+			</span>
+		</p>
+		<p class="questions">
+			10. What is "entrance" and "driveway" in Swedish?
+			<span id="question10">
+				<input type="button" class="btn" value="Get the Answer"
+				onclick="answer10();"/>
+			</span>
+		</p>
+
+	</div>
+<!--close Wrapper div-->	
+</body>
+</html>
